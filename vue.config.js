@@ -1,0 +1,9 @@
+module.exports={
+    devServer:{
+         open:true,
+         port:8800,
+         host:"localhost",  
+    },
+    productionSourceMap:false,
+    lintOnSave:false
+}
