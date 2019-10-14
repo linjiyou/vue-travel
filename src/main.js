@@ -3,13 +3,15 @@ import App from "./App.vue"
 import router from "./router"
 import store from "./store"
 import fastClick from 'fastclick'
-require('./assets/styles/reset.css')
-require('./assets/styles/border.css')
-require('./assets/styles/iconfont.css')
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
+import './assets/styles/reset.css'
+import './assets/styles/border.css'
+import './assets/styles/iconfont.css'
 
 fastClick.attach(document.body)
 Vue.config.productionTip = false;
-
+Vue.use(VueAwesomeSwiper)
 new Vue({
   router,
   store,
