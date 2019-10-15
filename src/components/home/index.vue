@@ -1,23 +1,23 @@
 <template>
   <div>
-    <home-header></home-header>
+    <app-header></app-header>
     <app-swiper></app-swiper>
-    <nav-icons></nav-icons>
+    <app-icons></app-icons>
     <app-recommend></app-recommend>
   </div>
 </template>
 
 <script>
-import HomeHeader from "./Header"
+import AppHeader from "./Header"
 import AppSwiper from "./Swiper"
-import NavIcons from "./NavIcons"
+import AppIcons from "./NavIcons"
 import AppRecommend from "./Recommend"
 
 export default {
   components: {
-    HomeHeader,
+    AppHeader,
     AppSwiper,
-    NavIcons,
+    AppIcons,
     AppRecommend
   }
 };
