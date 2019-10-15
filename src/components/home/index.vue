@@ -1,15 +1,22 @@
 <template>
+  <div>
     <home-header></home-header>
+    <app-swiper></app-swiper>
+    <nav-icons></nav-icons>
+  </div>
 </template>
 
 <script>
-import HomeHeader from './Header' 
-export default {
-    components:{
-        HomeHeader
-    }
-}
-</script>
-<style lang="stylus" scoped>
+import HomeHeader from "./Header"
+import AppSwiper from "./Swiper"
+import NavIcons from "./NavIcons"
 
-</style>
+export default {
+  components: {
+    HomeHeader,
+    AppSwiper,
+    NavIcons
+  }
+};
+</script>
+<style lang="stylus" scoped></style>

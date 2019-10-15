@@ -1,0 +1,131 @@
+{
+  "ret": true,
+  "data": {
+    "swiperList": [{
+        "id": "0001",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/201910/78b240572657a6da67e662540c846dd6.jpg_750x200_b75c8be9.jpg",
+        "link":"https://touch.qunar.com/mis/FZjAbu?bd_source=zthd_814141&cat=from_index%3D1%26dist_city%3D%E5%B9%BF%E5%B7%9E%26from_value%3DTOPIC-0%E5%85%83%E7%9D%A1%E5%B9%BF%E5%B7%9E%26from_area%3Dts_topic",
+        "title":"去哪儿门票"
+      },{
+        "id": "0002",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/201910/4950dc04db88330968906bc610caa524.jpg_750x200_1ee2ba8a.jpg",
+        "link":"https://sale.piao.qunar.com/touch/topic/mk/t_3782.htm?cat=from_index%3D2%26dist_city%3D%E5%B9%BF%E5%B7%9E%26from_value%3DTOPIC-%E9%95%BF%E9%9A%86%E6%9A%91%E6%9C%9F%E7%9C%81%E5%86%85%26from_area%3Dts_topic",
+        "title":"去哪儿门票"
+      },{
+        "id": "0003",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/201910/78b240572657a6da67e662540c846dd6.jpg_750x200_b75c8be9.jpg",
+        "link":"https://touch.qunar.com/mis/FZjAbu?bd_source=zthd_814141&cat=from_index%3D1%26dist_city%3D%E5%B9%BF%E5%B7%9E%26from_value%3DTOPIC-0%E5%85%83%E7%9D%A1%E5%B9%BF%E5%B7%9E%26from_area%3Dts_topic",
+        "title":"去哪儿门票"
+      },{
+        "id": "0004",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/201910/4950dc04db88330968906bc610caa524.jpg_750x200_1ee2ba8a.jpg",
+        "link":"https://sale.piao.qunar.com/touch/topic/mk/t_3782.htm?cat=from_index%3D2%26dist_city%3D%E5%B9%BF%E5%B7%9E%26from_value%3DTOPIC-%E9%95%BF%E9%9A%86%E6%9A%91%E6%9C%9F%E7%9C%81%E5%86%85%26from_area%3Dts_topic",
+        "title":"去哪儿门票"
+      }],
+    "iconList": [{
+        "id": "0001",
+        "imgUrl": "https://imgs.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "desc": "景点门票",
+        "link":"https://touch.piao.qunar.com/touch/list_广州_景点门票.html?cat=from_area%3Dts_type_nav%26from_index%3D0%26from_value%3D%25E6%2599%25AF%25E7%2582%25B9%25E9%2597%25A8%25E7%25A5%25A8%26dist_city%3D%25E5%25B9%25BF%25E5%25B7%259E"
+      }, {
+        "id": "0002",
+        "imgUrl": "https://imgs.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+        "desc": "广州必游",
+        "link":"https://sale.piao.qunar.com/touch/topic/mk/t_2934.htm?cat=from_area%3Dts_type_nav%26from_index%3D1%26from_value%3D%25E5%25B9%25BF%25E5%25B7%259E%25E5%25BF%2585%25E6%25B8%25B8%26dist_city%3D%25E5%25B9%25BF%25E5%25B7%259E"
+      }, {
+        "id": "0003",
+        "imgUrl": "https://imgs.qunarzz.com/piao/fusion/1803/fa/2548667cb6e902.png",
+        "desc": "动植物园",
+        "link":"https://touch.piao.qunar.com/touch/list_广州_动植物园.html?cat=from_area%3Dts_type_nav%26from_index%3D2%26from_value%3D%25E5%258A%25A8%25E6%25A4%258D%25E7%2589%25A9%25E5%259B%25AD%26dist_city%3D%25E5%25B9%25BF%25E5%25B7%259E"
+      }, {
+        "id": "0004",
+        "imgUrl": "https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/a40ee278d67000f2a29d2e20f6a029b3.png",
+        "desc": "自然风光",
+        "link":"https://touch.piao.qunar.com/touch/list_广州_自然风光.html?cat=from_area%3Dts_type_nav%26from_index%3D3%26from_value%3D%25E8%2587%25AA%25E7%2584%25B6%25E9%25A3%258E%25E5%2585%2589%26dist_city%3D%25E5%25B9%25BF%25E5%25B7%259E"
+      }, {
+        "id": "0005",
+        "imgUrl": "https://imgs.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+        "desc": "一日游",
+        "link":"https://touch.piao.qunar.com/touch/list_广州_一日游.html?cat=from_area%3Dts_type_nav%26from_index%3D4%26from_value%3D%25E4%25B8%2580%25E6%2597%25A5%25E6%25B8%25B8%26dist_city%3D%25E5%25B9%25BF%25E5%25B7%259E"
+      }, {
+        "id": "0006",
+        "imgUrl": "https://imgs.qunarzz.com/piao/fusion/1803/3e/86314b2af03b7502.png",
+        "desc": "水上乐园",
+        "link":"https://touch.piao.qunar.com/touch/list_广州_水上乐园.html?cat=from_area%3Dts_type_nav%26from_index%3D5%26from_value%3D%25E6%25B0%25B4%25E4%25B8%258A%25E4%25B9%2590%25E5%259B%25AD%26dist_city%3D%25E5%25B9%25BF%25E5%25B7%259E"
+      }, {
+        "id": "0007",
+        "imgUrl": "https://imgs.qunarzz.com/piao/fusion/1803/50/26ffa31b56646402.png",
+        "desc": "亲子游",
+        "link":"https://touch.piao.qunar.com/touch/list_广州_亲子.html?cat=from_area%3Dts_type_nav%26from_index%3D6%26from_value%3D%25E4%25BA%25B2%25E5%25AD%2590%25E6%25B8%25B8%26dist_city%3D%25E5%25B9%25BF%25E5%25B7%259E"
+      }, {
+        "id": "0008",
+        "imgUrl": "https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/184e261814a5d07a5d3d08cd29cf590d.png",
+        "desc": "长隆度假区",
+        "link":"https://sale.piao.qunar.com/touch/topic/mk/t_3782.htm?cat=from_area%3Dts_type_nav%26from_index%3D7%26from_value%3D%25E9%2595%25BF%25E9%259A%2586%25E5%25BA%25A6%25E5%2581%2587%25E5%258C%25BA%26dist_city%3D%25E5%25B9%25BF%25E5%25B7%259E"
+      }, {
+        "id": "0009",
+        "imgUrl": "https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/c032ae43b15a3dac34b5e07bb0e46850.png",
+        "desc": "广州搭",
+        "link":"http://touch.piao.qunar.com/touch/detail_33631.html?cat=from_area%3Dts_type_nav%26from_index%3D8%26from_value%3D%25E5%25B9%25BF%25E5%25B7%259E%25E5%25A1%2594%26dist_city%3D%25E5%25B9%25BF%25E5%25B7%259E"
+      },
+      {
+        "id":"00010",
+        "imgUrl":"https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20194/bda58ffc3016edad84e656e8a94b0321.png",
+        "desc":"广州融创",
+        "link":"https://sale.piao.qunar.com/touch/topic/mk/t_4045.htm?cat=from_area%3Dts_type_nav%26from_index%3D9%26from_value%3D%25E5%25B9%25BF%25E5%25B7%259E%25E8%259E%258D%25E5%2588%259B%26dist_city%3D%25E5%25B9%25BF%25E5%25B7%259E"
+      }
+    ],
+    "recommendList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg",
+        "title": "故宫",
+        "desc": "东方宫殿建筑代表，世界宫殿建筑典范"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1511/d2/d2aec2dfc5aa771290.water.jpg_140x140_abb362a7.jpg",
+        "title": "南山滑雪场",
+        "desc": "北京专业级滑雪圣地"
+      }, {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/f4/f467729126949c3a.water.jpg_140x140_ef235b1c.jpg",
+        "title": "天安门广场",
+        "desc": "我爱北京天安门，天安门上太阳升"
+      }, {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/40/40b2b6c951b28fdd.water.jpg_140x140_1c863e5c.jpg",
+        "title": "水立方",
+        "desc": "中国的荣耀，阳光下的晶莹水滴"
+      }, {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201308/23/b283071686e64dfec8d65eac.jpg_140x140_8c5a7c49.jpg",
+        "title": "温都水城养生馆",
+        "desc": "各种亚热带植物掩映其间仿佛置身热带雨林"
+      }],
+    "weekendList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
+        "title": "北京温泉排行榜",
+        "desc": "细数北京温泉，温暖你的冬天"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/aa/7baaf8a851d221.jpg_r_640x214_1431200f.jpg",
+        "title": "北京必游TOP10",
+        "desc": "来北京必去的景点非这些地方莫属"
+      }, {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
+        "title": "寻找北京的皇城范儿",
+        "desc": "数百年的宫廷庙宇，至今依旧威严霸气"
+      }, {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/ce/bc89bc2f0e33ea.jpg_r_640x214_3e408453.jpg",
+        "title": "学生最爱的博物馆",
+        "desc": "周末干嘛？北京很多博物馆已经免费开放啦"
+      }, {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/b2/fde1bfcd057a52.jpg_r_640x214_bbf3fa44.jpg",
+        "title": "儿童剧场，孩子的乐园",
+        "desc": "带宝贝观看演出，近距离体验艺术的无穷魅力"
+      }]
+  }
+}
