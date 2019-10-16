@@ -1,13 +1,15 @@
 <template>
   <div id="app">
-    <app-home></app-home>
+    <router-view></router-view>
   </div>
 </template>
 <script>
 import AppHome from "./components/home";
+import AppCity from "./components/city"
 export default {
   components: {
-    AppHome
+    AppHome,
+    AppCity
   }
 };
 </script>
