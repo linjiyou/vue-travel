@@ -18,31 +18,20 @@
 <script>
 import { getData } from "@/api/home";
 export default {
+  props: {
+    iconList: Array
+  },
   data() {
     return {
       swiperOption: {
         pagination: ".swiper-pagination"
-      },
-      iconsList: []
-    };
-  },
-  created() {
-    this._geticonsList();
-  },
-  methods: {
-    _geticonsList() {
-      getData().then(response => {
-        const resp = response.data;
-        if (resp.ret) {
-          this.iconsList = resp.data.iconList;
-        }
-      });
+      }
     }
   },
   computed: {
     pages() {
       const pages = [];
-      this.iconsList.forEach((item, index) => {
+      this.iconList.forEach((item, index) => {
         const page = Math.floor(index / 8);
         if (!pages[page]) {
           pages[page] = [];

@@ -1,6 +1,6 @@
 <template>
-  <div class="wrapper">
-    <swiper :options="swiperOption" ref="mySwiper">
+  <div class="wrapper" ref="index">
+    <swiper :options="swiperOption" ref="mySwiper" v-if="showSwiper">
       <swiper-slide v-for="item in swiperList" :key="item.id">
         <a :href="item.link">
           <img :src="item.imgUrl" :alt="item.title" class="swiper-img" />
@@ -13,28 +13,22 @@
 <script>
 import { getData } from "@/api/home";
 export default {
+  props:{
+    swiperList:Array
+  },
   data() {
     return {
       swiperOption: {
         pagination: ".swiper-pagination",
         loop: true,
         autoplay: 3000,
-        initialSlide:1
-      },
-      swiperList: {}
-    };
+      }
+     
+    }
   },
-  created() {
-    this._getDate();
-  },
-  methods: {
-    _getDate() {
-      getData().then(response => {
-        const resp = response.data;
-        if (resp.ret) {
-          this.swiperList = resp.data.swiperList;
-        }
-      });
+  computed:{
+    showSwiper(){
+      return this.swiperList.length
     }
   }
 };

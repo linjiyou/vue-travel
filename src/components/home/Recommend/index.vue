@@ -16,24 +16,9 @@
 <script>
 import { getData } from "@/api/home";
 export default {
-  data() {
-    return {
-      recommendList: []
-    };
-  },
-  created() {
-    this._getRecomend();
-  },
-  methods: {
-    _getRecomend() {
-      getData().then(response => {
-        const resp = response.data;
-        if (resp.ret) {
-          this.recommendList = resp.data.recommendList;
-        }
-      });
-    }
-  }
+ props:{
+   recommendList:Array
+ },
 };
 </script>
 <style lang="stylus" scoped>
