@@ -7,11 +7,16 @@ Vue.use(Router);
 
 export default new Router({
   routes: [
+<<<<<<< HEAD
     {
      path:"/",component:AppHome
     },
     {
       path:"/city",component:AppCity
     }
+=======
+    { path: "/", component: AppHome },
+    { path: "/city", component: AppCity }
+>>>>>>> city-search
   ]
 });
