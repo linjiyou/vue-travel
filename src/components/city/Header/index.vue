@@ -30,6 +30,7 @@ export default {
   .header-back{
    position absolute
    left 0
+   top 0
    font-size .4rem
    width .64rem
    color #fff
