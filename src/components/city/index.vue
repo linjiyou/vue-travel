@@ -1,18 +1,19 @@
 <template>
   <div>
-     <home-city></home-city>
+    <city-header></city-header>
+    <city-search></city-search>
   </div>
 </template>
 <script>
-import HomeCity from "./Header"
+import CityHeader from "./Header";
+import CitySearch from "./Serach";
 export default {
-  data () {
-    return {
-    }
+  data() {
+    return {};
   },
-  components: {HomeCity},
+  components: { CityHeader,CitySearch },
   methods: {}
-}
+};
 </script>
 <style scoped>
 </style>

@@ -6,10 +6,8 @@ import AppCity from "./components/city"
 Vue.use(Router);
 
 export default new Router({
- // mode: "history",
-  // base: process.env.BASE_URL,
   routes: [
-    {path:"/",component:AppHome},
-    {path:"/city",component:AppCity}
+    { path: "/", component: AppHome },
+    { path: "/city", component: AppCity }
   ]
 });
