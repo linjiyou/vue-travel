@@ -12,69 +12,51 @@
       <div class="area">
         <div class="title border-topbottom">热门城市</div>
         <div class="button-list">
-          <div class="button-wrapper">
-            <div class="button">北京</div>
+          <div class="button-wrapper" v-for="item of hot" :key="item.id">
+            <div class="button">{{item.name}}</div>
           </div>
         </div>
       </div>
-      <div class="area">
-        <div class="title border-topbottom">A</div>
+      <div class="area" v-for="(item, key) of cities" :key="key">
+        <div class="title border-topbottom">{{key}}</div>
         <div class="item-lsit">
-          <div class="item border-bottom">ala</div>
-          <div class="item border-bottom">ala</div>
-          <div class="item border-bottom">ala</div>
-          <div class="item border-bottom">ala</div>
-          <div class="item border-bottom">ala</div>
-          <div class="item border-bottom">ala</div>
-          <div class="item border-bottom">ala</div>
-          <div class="item border-bottom">ala</div>
-          <div class="item border-bottom">ala</div>
-          <div class="item border-bottom">ala</div>
-          <div class="item border-bottom">ala</div>
-          <div class="item border-bottom">ala</div>
-        </div>
-      </div>
-      <div class="area">
-        <div class="title border-topbottom">A</div>
-        <div class="item-lsit">
-          <div class="item border-bottom">ala</div>
-          <div class="item border-bottom">ala</div>
-          <div class="item border-bottom">ala</div>
-          <div class="item border-bottom">ala</div>
-          <div class="item border-bottom">ala</div>
-          <div class="item border-bottom">ala</div>
-          <div class="item border-bottom">ala</div>
-          <div class="item border-bottom">ala</div>
-          <div class="item border-bottom">ala</div>
-          <div class="item border-bottom">ala</div>
-          <div class="item border-bottom">ala</div>
-          <div class="item border-bottom">ala</div>
+          <div
+            class="item border-bottom"
+            v-for="innerItem of item"
+            :key="innerItem.id"
+          >{{innerItem.name}}</div>
         </div>
       </div>
     </div>
   </div>
 </template>
 <script>
-import Bscroll from 'better-scroll'
+import Bscroll from "better-scroll";
 export default {
+  props: {
+    hot: Array,
+    cities: Object
+  },
   data() {
     return {};
   },
   components: {},
   methods: {},
-  mounted(){
-   this.scroll=new Bscroll(this.$refs.wrapper)
-  },
+  mounted() {
+    this.scroll = new Bscroll(this.$refs.wrapper);
+  }
 };
 </script>
 <style scoped lang="stylus">
-.list{
+.list {
   overflow: hidden;
   position: absolute;
   top: 1.58rem;
   left: 0;
   right: 0;
+  bottom: 0;
 }
+
 .border-topbottom {
   &::before {
     border-color: #777;

@@ -1,16 +1,18 @@
 <template>
   <ul class="list">
-    <li class="item">l</li>
+    <li class="item" v-for="(items, key) of cities" :key="key">{{key}}</li>
   </ul>
 </template>
 <script>
 export default {
+  props:{
+   cities:Object
+  },
   data () {
     return {
     }
   },
-  components: {},
-  methods: {}
+
 }
 </script>
 <style scoped lang="stylus">
