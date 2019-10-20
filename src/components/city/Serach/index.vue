@@ -10,6 +10,7 @@
           v-for="item in list"
           :key="item.id"
           :ref="item.id"
+          @click="handleCityClick(item.name)"
         >{{item.name}}</li>
         <li class="search-item border-bottom" v-show="hasNoDate">没有匹配到数据</li>
       </ul>
@@ -18,6 +19,7 @@
 </template>
 <script>
 import Bscroll from "better-scroll";
+import { mapMutations } from "vuex";
 export default {
   props: {
     cities: Object
@@ -27,6 +29,13 @@ export default {
       keyword: "",
       list: []
     };
+  },
+  methods: {
+     handleCityClick(city){
+      this.changeCity(city)
+      this.$router.push('/')
+    },
+    ...mapMutations(['changeCity'])
   },
   computed: {
     hasNoDate() {
@@ -60,8 +69,7 @@ export default {
   },
   mounted() {
     this.scroll = new Bscroll(this.$refs.search);
-  },
-  methods: {}
+  }
 };
 </script>
 <style scoped lang="stylus">
