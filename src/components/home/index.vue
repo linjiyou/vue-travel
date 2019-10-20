@@ -19,6 +19,7 @@ import axios from "axios"
 export default {
   data(){
     return{
+      lastCity:'',
       swiperList:[],
       iconList:[],
       recommendList:[],
@@ -27,10 +28,11 @@ export default {
   },
   created(){
     this._getHomeData()
+    this.lastCity=this.$store.state.city
   },
   methods:{
     _getHomeData(){
-      axios.get('api/index.json').then(this.getHomeSuccess)
+      axios.get(`api/index.json?city=${this.$store.state.city}`).then(this.getHomeSuccess)
     },
     getHomeSuccess(response){
        const resp=response.data
@@ -49,6 +51,12 @@ export default {
     AppIcons,
     AppRecommend,
     AppWeekend
+  },
+  activated(){
+    if(this.lastCity!==this.$store.state.city){
+      this.lastCity=this.$store.state.city
+      this._getHomeData()
+    }
   }
 };
 </script>
