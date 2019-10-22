@@ -2,7 +2,7 @@
   <ul class="list">
     <li
       class="item"
-      @touchstart="handleTouchStart"
+      @touchstart.prevent="handleTouchStart"
       @touchend="handleTouchEnd"
       @touchmove="handleTouchMove"
       v-for="item in letters"

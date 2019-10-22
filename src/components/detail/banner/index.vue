@@ -2,34 +2,44 @@
   <div>
     <div class="banner" @click="handleGallaryOpen">
       <img
-        src="//img1.qunarzz.com/sight/p0/1509/80/9535a0d28468b3c6c910d87f1a4fdbe8.water.jpg_600x330_6f6a4baa.jpg"
+        :src="bannerImg"
         alt
         class="banner-img"
       />
       <div class="banner-info">
-        <div class="banner-title">kkkkkkkkkk</div>
+        <div class="banner-title">{{sightName}}</div>
         <div class="banner-number">
           <span class="iconfont banner-icon">&#xe692;</span>
           39
         </div>
       </div>
     </div>
+    <commom-fade>
     <commom-gallary
      @close="handleGallaryClose"
      v-show="showGallary"
+     :gallaryImgs="gallaryImgs"
     ></commom-gallary>
+    </commom-fade>
   </div>
 </template>
 <script>
 import CommomGallary from "@/commom/gallary";
+import CommomFade from "@/commom/fade"
 export default {
+  props:{
+    gallaryImgs:Array,
+    bannerImg:String,
+    sightName:String
+  },
   data() {
     return {
         showGallary:false
     };
   },
   components: {
-    CommomGallary
+    CommomGallary,
+    CommomFade
   },
   methods: {
       handleGallaryClose(){
